@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- The <svg> tag defines a container for SVG graphics. 
+    SVG has several methods for drawing paths, boxes, circles, text, and graphic images.-->
+    <svg width="100px" height="100px">
+        <circle cx="50" cy="50" r="50" stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+    <svg width="400px" height="100px">
+        <rect width="400" height="100" fill stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+    <svg width="400px" height="180px">
+        <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+            style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+    </svg>
+    <svg width="300px" height="200px">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+            style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+    </svg>
+    <svg height="130px" width="500px">
+        <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+            </linearGradient>
+        </defs>
+        <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+        <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+    </svg>
+
+
+
+
+
+    <!-- The <canvas> tag is used to draw graphics, on the fly, via scripting (usually JavaScript).
+    The <canvas> tag is transparent, and is only a container for graphics, you must use a script to actually draw the graphics. -->
+    <canvas id="myCanvas">
+        Your browser does not support the canvas tag. </canvas>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(0, 0, 80, 80);
+    </script>
+
+
+    <!-- The <map> element contains a number of <area> elements, that defines the clickable areas in the image map. -->
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+    </map>
+
+</body>
+
+</html>
