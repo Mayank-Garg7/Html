@@ -10,6 +10,7 @@ This is a basic HTML and CSS web page template that you can use as a starting po
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [Live Output]
 - [License](#license)
 
 ## Project Structure
@@ -42,6 +43,10 @@ You can use this template as a starting point for your web development projects.
 
 
 Feel free to expand and enhance the web page as needed for your specific project.
+
+## Live Output 
+Here you can see the output of above project by clicking the link - 
+[Click Here](mayank-garg7.github.io/BookAnimation/)
 
 ## License
 
