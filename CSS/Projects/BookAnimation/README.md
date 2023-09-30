@@ -46,7 +46,7 @@ Feel free to expand and enhance the web page as needed for your specific project
 
 ## Live Output 
 Here you can see the output of above project by clicking the link - 
-[Click Here]([https://github.com/Mayank-Garg7.github.io/BookAnimation/](https://mayank-garg7.github.io/BookAnimation/))
+[Click Here](https://mayank-garg7.github.io/BookAnimation/)
 
 ## License
 
