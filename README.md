@@ -41,7 +41,7 @@
       a) [Repository](https://github.com/Mayank-Garg7/TicTacToeGame)
         For more details.
 - Project 8. [Book Animation](https://mayank-garg7.github.io/BookAnimation/)
-      a) [Repository]((https://github.com/Mayank-Garg7/BookAnimation))
+      a) [Repository](https://github.com/Mayank-Garg7/BookAnimation)
         For more details.
 - Project 9. [Bullet Game](https://mayank-garg7.github.io/BulletGame/)
         a) [Repository](https://github.com/Mayank-Garg7/BulletGame)
