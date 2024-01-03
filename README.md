@@ -6,11 +6,11 @@
 
 - [Projects](https://github.com/Mayank-Garg7/Html/tree/main/Projects)
 - [HTML Notes](https://github.com/Mayank-Garg7/Html/blob/main/HtmlNotes.pdf)
-  - [HTML Tags](#html-tags)
-  - [Tag Explanations](#tag-explanations)
+  - [HTML Tags](https://github.com/Mayank-Garg7/Html/tree/main/Html%20Tags)
+  - [Tag Explanations]([#tag-explanations](https://github.com/Mayank-Garg7/Html/blob/main/HtmlNotes.pdf))
 - [HTML Roadmap](#html-roadmap)
-- [HTML Cheat Sheet](#html-cheat-sheet)
-- [CSS Notes](#css-notes)
+- [HTML Cheat Sheet]([#html-cheat-sheet](https://github.com/Mayank-Garg7/Html/blob/main/HtmlCheatSheet.pdf))
+- [CSS Notes]([#css-notes](https://github.com/Mayank-Garg7/Html/blob/main/CSS/CSSNotes.pdf))
 - [CSS Cheat Sheet](#css-cheat-sheet)
 - [Contributing](#contributing)
 - [License](#license)
@@ -19,9 +19,23 @@
 
 ## Projects
 
-- Project 1: [Project Name 1](link-to-project1)
-- Project 2: [Project Name 2](link-to-project2)
-- ...
+### HTML
+- Project 1: [Calculator]([link-to-project1](https://mayank-garg7.github.io/Calculator/))  
+      a) [Repository](https://github.com/Mayank-Garg7/Html/tree/main/Projects/Calculator)
+          For more calculator templates.
+- Project 2: [Image Animation](https://mayank-garg7.github.io/ImageAnimation/)
+      a) [Repository](https://github.com/Mayank-Garg7/ImageAnimation)
+          For more details
+- Project 3: [Solar System]([link-to-project2](https://mayank-garg7.github.io/SolarSystem/))
+      a) [Repository]([https://github.com/Mayank-Garg7/Html/tree/main/Projects/Calculator](https://github.com/Mayank-Garg7/SolarSystem))
+          For more details.
+- Project 4: [Backtracking]((https://mayank-garg7.github.io/Backtracking/))
+      a) [Repository]([https://github.com/Mayank-Garg7/Html/tree/main/Projects/Calculator](https://github.com/Mayank-Garg7/SolarSystem))
+          For more details.
+- bjjgbbjhbbhj
+- jhbjhggbbhh
+- jbjhhhbhjh
+  
 
 Provide a brief description of each project and link to their respective repositories or live demos.
 
