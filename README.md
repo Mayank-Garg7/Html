@@ -7,11 +7,11 @@
 - [Projects](https://github.com/Mayank-Garg7/Html/tree/main/Projects)
 - [HTML Notes](https://github.com/Mayank-Garg7/Html/blob/main/HtmlNotes.pdf)
   - [HTML Tags](https://github.com/Mayank-Garg7/Html/tree/main/Html%20Tags)
-  - [Tag Explanations]([tag-explanations](https://github.com/Mayank-Garg7/Html/blob/main/HtmlNotes.pdf))
+  - [Tag Explanations](https://github.com/Mayank-Garg7/Html/blob/main/HtmlNotes.pdf)
 - [HTML Roadmap](#html-roadmap)
-- [HTML Cheat Sheet]([html-cheat-sheet](https://github.com/Mayank-Garg7/Html/blob/main/HtmlCheatSheet.pdf))
-- [CSS Notes]([css-notes](https://github.com/Mayank-Garg7/Html/blob/main/CSS/CSSNotes.pdf))
-- [CSS Cheat Sheet]([css-cheat-sheet](https://github.com/Mayank-Garg7/Html/blob/main/CSS/csscheatsheet.pdf))
+- [Html-Cheat-Sheet](https://github.com/Mayank-Garg7/Html/blob/main/HtmlCheatSheet.pdf)
+- [CSS Notes](https://github.com/Mayank-Garg7/Html/blob/main/CSS/CSSNotes.pdf)
+- [CSS Cheat Sheet](https://github.com/Mayank-Garg7/Html/blob/main/CSS/csscheatsheet.pdf)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -19,27 +19,35 @@
 
 ## Projects
 
-### HTML
-- Project 1: [Calculator]([link-to-project1](https://mayank-garg7.github.io/Calculator/))  
+- Project 1: [Calculator](https://mayank-garg7.github.io/Calculator/)
       a) [Repository](https://github.com/Mayank-Garg7/Html/tree/main/Projects/Calculator)
           For more calculator templates.
 - Project 2: [Image Animation](https://mayank-garg7.github.io/ImageAnimation/)
       a) [Repository](https://github.com/Mayank-Garg7/ImageAnimation)
           For more details
-- Project 3: [Solar System]([link-to-project2](https://mayank-garg7.github.io/SolarSystem/))
-      a) [Repository]([https://github.com/Mayank-Garg7/Html/tree/main/Projects/Calculator](https://github.com/Mayank-Garg7/SolarSystem))
+- Project 3: [Solar System](https://mayank-garg7.github.io/SolarSystem/)
+      a) [Repository](https://github.com/Mayank-Garg7/SolarSystem)
           For more details.
 - Project 4: [Backtracking]((https://mayank-garg7.github.io/Backtracking/))
-      a) [Repository]([https://github.com/Mayank-Garg7/Html/tree/main/Projects/Calculator](https://github.com/Mayank-Garg7/SolarSystem))
+      a) [Repository](https://github.com/Mayank-Garg7/Html/blob/main/CSS/csscheatsheet.pdf)
           For more details.
-- bjjgbbjhbbhj
-- jhbjhggbbhh
-- jbjhhhbhjh
+- Project 5: [To Do LIst](https://mayank-garg7.github.io/ToDoList/)
+      a) [Repository](https://github.com/Mayank-Garg7/ToDoList)
+        For more details.
+- Project 6. [Quiz Web](https://mayank-garg7.github.io/QuizWeb/)
+      a) [Repository](https://github.com/Mayank-Garg7/QuizWeb)
+          For more details.
+- Project 7. [Tic Tac Toe](https://mayank-garg7.github.io/TicTacToeGame/)
+      a) [Repository](https://github.com/Mayank-Garg7/TicTacToeGame)
+        For more details.
+- Project 8. [Book Animation](https://mayank-garg7.github.io/BookAnimation/)
+      a) [Repository]((https://github.com/Mayank-Garg7/BookAnimation))
+        For more details.
+- Project 9. [Bullet Game](https://mayank-garg7.github.io/BulletGame/)
+        a) [Repository](https://github.com/Mayank-Garg7/BulletGame)
+          For more details
+  For more projects you can [visit...](https://github.com/Mayank-Garg7/Html/tree/main/Projects)
   
-
-Provide a brief description of each project and link to their respective repositories or live demos.
-
-## HTML Notes
 
 ### HTML Tags
 
