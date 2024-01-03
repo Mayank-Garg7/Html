@@ -28,7 +28,7 @@
 - Project 3: [Solar System](https://mayank-garg7.github.io/SolarSystem/)
       a) [Repository](https://github.com/Mayank-Garg7/SolarSystem)
           For more details.
-- Project 4: [Backtracking]((https://mayank-garg7.github.io/Backtracking/))
+- Project 4: [Backtracking](https://mayank-garg7.github.io/Backtracking/)
       a) [Repository](https://github.com/Mayank-Garg7/Html/blob/main/CSS/csscheatsheet.pdf)
           For more details.
 - Project 5: [To Do LIst](https://mayank-garg7.github.io/ToDoList/)
