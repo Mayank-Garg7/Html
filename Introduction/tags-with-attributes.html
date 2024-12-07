@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags with Attributes</title>
+</head>
+
+<body>
+    <h1>HTML Tags with Attributes</h1>
+    <p>Attributes provide additional information about an element. Below are some examples:</p>
+
+    <!-- Image tag with attributes -->
+    <h2>Image Tag</h2>
+    <p>The <code>&lt;img&gt;</code> tag displays an image. It has attributes like <code>src</code>, <code>alt</code>,
+        <code>width</code>, and <code>height</code>.</p>
+    <!-- src: Specifies the path to the image -->
+    <!-- alt: Provides alternative text for the image -->
+    <!-- width: Defines the width of the image -->
+    <!-- height: Defines the height of the image -->
+    <img src="https://via.placeholder.com/150" alt="Sample Image" width="150" height="150">
+
+    <!-- Anchor tag with attributes -->
+    <h2>Anchor Tag</h2>
+    <p>The <code>&lt;a&gt;</code> tag creates a hyperlink. Common attributes include <code>href</code> and
+        <code>target</code>.</p>
+    <!-- Definition: Used to create hyperlinks for navigation -->
+    <!-- href: Specifies the URL of the link -->
+    <!-- target: Specifies how the link should open (e.g., '_blank' for a new tab) -->
+    <a href="https://www.example.com" target="_blank">Visit Example Website</a>
+
+    <!-- List elements -->
+    <h2>List Elements</h2>
+    <p>Lists are used to group related items:</p>
+
+    <!-- Ordered List -->
+    <h3>Ordered List (OL)</h3>
+    <p>The <code>&lt;ol&gt;</code> tag defines an ordered (numbered) list.</p>
+    <!-- Definition: Displays items in a sequential order with numbers -->
+    <!-- Attributes: 
+         type: Specifies the type of numbering (e.g., "1", "A", "a", "I", "i")
+         start: Specifies the starting number of the list -->
+    <ol type="1" start="1">
+        <li>First item</li> <!-- Represents the first item in the list -->
+        <li>Second item</li> <!-- Represents the second item in the list -->
+    </ol>
+
+    <!-- Unordered List -->
+    <h3>Unordered List (UL)</h3>
+    <p>The <code>&lt;ul&gt;</code> tag defines an unordered (bulleted) list.</p>
+    <!-- Definition: Displays items with bullet points, without sequence -->
+    <!-- Attributes: 
+         type: Specifies the bullet type (e.g., "disc", "circle", "square") -->
+    <ul type="disc">
+        <li>Bullet point 1</li> <!-- Represents an item in the bullet list -->
+        <li>Bullet point 2</li> <!-- Represents another item in the bullet list -->
+    </ul>
+
+    <!-- Description List -->
+    <h3>Description List (DL)</h3>
+    <p>The <code>&lt;dl&gt;</code> tag defines a description list with terms and their descriptions.</p>
+    <!-- Definition: Used for creating lists with terms and their definitions -->
+    <!-- Attributes: Does not have specific attributes, but works with <dt> and <dd> -->
+    <dl>
+        <dt>HTML</dt> <!-- Term -->
+        <dd>HyperText Markup Language, used to structure web content.</dd> <!-- Description -->
+
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets, used for styling web pages.</dd>
+    </dl>
+</body>
+
+</html>
