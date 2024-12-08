@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+</head>
+
+<body>
+    <h1>HTML Tables</h1>
+    <p>Tables are used to organize data into rows and columns:</p>
+
+    <!-- Table: Defines a table structure -->
+    <table border="1">
+        <!-- Thead: Contains the table header row -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <!-- Tbody: Contains the main body of the table -->
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>25</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>30</td>
+                <td>Los Angeles</td>
+            </tr>
+        </tbody>
+        <!-- Tfoot: Contains the footer of the table -->
+        <tfoot>
+            <tr>
+                <td colspan="3">Total: 2 Rows</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Colgroup: Groups columns for styling -->
+    <table border="1">
+        <colgroup>
+            <col style="background-color: lightgray;">
+            <col style="background-color: lightblue;">
+        </colgroup>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+        </tr>
+    </table>
+</body>
+
+</html>

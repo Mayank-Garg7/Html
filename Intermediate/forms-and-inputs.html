@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Inputs</title>
+</head>
+
+<body>
+    <h1>HTML Forms and Input Elements</h1>
+    <!-- Form: Collects and submits user input to a server -->
+    <form action="/submit" method="post">
+        <!-- Label: Links to an input field for better accessibility -->
+        <label for="name">Name:</label>
+        <!-- Input (Text): Accepts single-line text input -->
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <!-- Fieldset: Groups related inputs -->
+        <fieldset>
+            <!-- Legend: Title for the group of inputs -->
+            <legend>Personal Details</legend>
+
+            <!-- Textarea: Multi-line text input -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your message"></textarea>
+            <br><br>
+
+            <!-- Select and Option: Dropdown menu -->
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <!-- Option: Defines each selectable choice -->
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <!-- Input (Password): Accepts sensitive information -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <!-- Radio Button: Allows selecting one option from a group -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Checkbox: Allows multiple selections -->
+        <label>Hobbies:</label>
+        <input type="checkbox" id="sports" name="hobby" value="Sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="reading" name="hobby" value="Reading">
+        <label for="reading">Reading</label>
+        <br><br>
+
+        <!-- Submit Button: Sends the form data -->
+        <input type="submit" value="Submit">
+        <!-- Reset Button: Clears all inputs -->
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
