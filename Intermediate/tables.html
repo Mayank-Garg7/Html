@@ -12,18 +12,29 @@
     <p>Tables are used to organize data into rows and columns:</p>
 
     <!-- Table: Defines a table structure -->
+    <!-- Attributes:
+         - border: Specifies the border width around the table. -->
     <table border="1">
-        <!-- Thead: Contains the table header row -->
+        <!-- Thead: Contains the table's header row -->
+        <!-- Attributes:
+             - align (deprecated): Aligns content in the table header (left, center, right). -->
         <thead>
+            <!-- Tr: Defines a table row -->
             <tr>
+                <!-- Th: Table header cell, typically bold and centered -->
+                <!-- Attributes:
+                     - colspan: Specifies the number of columns a cell should span.
+                     - rowspan: Specifies the number of rows a cell should span. -->
                 <th>Name</th>
                 <th>Age</th>
                 <th>City</th>
             </tr>
         </thead>
-        <!-- Tbody: Contains the main body of the table -->
+
+        <!-- Tbody: Contains the main content of the table -->
         <tbody>
             <tr>
+                <!-- Td: Table data cell -->
                 <td>John</td>
                 <td>25</td>
                 <td>New York</td>
@@ -34,17 +45,26 @@
                 <td>Los Angeles</td>
             </tr>
         </tbody>
-        <!-- Tfoot: Contains the footer of the table -->
+
+        <!-- Tfoot: Contains summary or footer information for the table -->
         <tfoot>
             <tr>
+                <!-- Colspan: Makes this cell span 3 columns -->
                 <td colspan="3">Total: 2 Rows</td>
             </tr>
         </tfoot>
     </table>
 
-    <!-- Colgroup: Groups columns for styling -->
+    <br><br>
+
+    <!-- Colgroup: Groups columns for shared styling -->
+    <!-- Attributes:
+         - span: Specifies the number of columns the group applies to. -->
     <table border="1">
         <colgroup>
+            <!-- Col: Defines properties for individual columns -->
+            <!-- Attributes:
+                 - style: Inline CSS to style the column. -->
             <col style="background-color: lightgray;">
             <col style="background-color: lightblue;">
         </colgroup>
