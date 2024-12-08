@@ -12,29 +12,58 @@
     <p>HTML provides ways to style content and structure layout:</p>
 
     <!-- Div: Generic container for grouping elements -->
+    <!-- Definition: Used to group content together for styling and layout purposes. -->
+    <!-- Attributes:
+         - style: Allows inline CSS styling of the div. -->
     <div style="background-color: lightgray; padding: 10px;">
         This is a div container.
     </div>
 
+    <br>
+
     <!-- Section: Groups related content -->
-    <section>
+    <!-- Definition: Represents a thematic grouping of content, usually with a heading. -->
+    <!-- Attributes:
+         - id: Assigns a unique identifier for the section, useful for navigation or styling. -->
+    <section id="info-section">
         <h2>Section Title</h2>
         <p>This is a section of the webpage.</p>
     </section>
 
+    <br>
+
     <!-- Article: Represents self-contained content -->
-    <article>
+    <!-- Definition: Used for content that is independent and reusable, such as blog posts or news articles. -->
+    <!-- Attributes:
+         - id: Unique identifier for targeting or styling.
+         - style: Inline styles to define appearance. -->
+    <article id="article1" style="border: 1px solid black; padding: 10px;">
         <h2>Article Title</h2>
         <p>This is an article within the webpage.</p>
     </article>
 
+    <br>
+
     <!-- Aside: Content tangentially related to the main content -->
-    <aside>
+    <!-- Definition: Used for supplementary content like sidebars, notes, or advertisements. -->
+    <!-- Attributes:
+         - class: Assigns a CSS class to the aside for styling.
+         - id: Unique identifier for this aside. -->
+    <aside id="sidebar" class="sidebar-style">
         <p>This is an aside, often used for sidebars or notes.</p>
     </aside>
 
+    <br>
+
     <!-- Iframe: Embeds another webpage or media -->
-    <iframe src="https://example.com" width="400" height="300" title="Example Iframe"></iframe>
+    <!-- Definition: Used to embed an external webpage, video, or other media into the current page. -->
+    <!-- Attributes:
+         - src: Specifies the URL of the embedded content.
+         - width: Sets the width of the iframe (in pixels or percentage).
+         - height: Sets the height of the iframe (in pixels or percentage).
+         - title: Describes the iframe content for accessibility.
+         - frameborder (deprecated): Specifies whether the iframe has a border (values: 0 or 1). -->
+    <iframe src="https://example.com" width="400" height="300" title="Example Iframe" style="border: 2px solid blue;"></iframe>
 </body>
 
 </html>
