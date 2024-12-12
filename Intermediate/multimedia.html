@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Multimedia</title>
+</head>
+
+<body>
+    <h1>HTML Multimedia</h1>
+    <p>HTML allows you to add multimedia elements like images, audio, and video to make your web pages more interactive and engaging.</p>
+
+    <!-- Image -->
+    <!-- <img> Tag: Displays images -->
+    <h2>Image</h2>
+    <p>The <code>&lt;img&gt;</code> tag is used to display images. Example:</p>
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image" width="300">
+    <!-- Attributes:
+         src: Specifies the image source (URL or file path)
+         alt: Provides alternate text for the image (important for accessibility)
+         width, height: Sets the dimensions of the image -->
+
+    <hr>
+
+    <!-- Audio -->
+    <!-- <audio> Tag: Embeds audio files -->
+    <h2>Audio</h2>
+    <p>The <code>&lt;audio&gt;</code> tag is used to play audio files. Example:</p>
+    <audio controls>
+        <!-- Attributes:
+             src: Path to the audio file
+             controls: Adds play, pause, and volume buttons -->
+        <source src="example.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <hr>
+
+    <!-- Video -->
+    <!-- <video> Tag: Embeds video files -->
+    <h2>Video</h2>
+    <p>The <code>&lt;video&gt;</code> tag is used to play video files. Example:</p>
+    <video width="400" controls>
+        <!-- Attributes:
+             width: Sets the width of the video
+             controls: Adds play, pause, and volume buttons -->
+        <source src="example.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <hr>
+
+    <!-- Embed -->
+    <!-- <embed> Tag: Embeds external content -->
+    <h2>Embed External Content</h2>
+    <p>The <code>&lt;embed&gt;</code> tag is used to embed external content, such as PDFs or Flash files. Example:</p>
+    <embed src="example.pdf" width="500" height="400">
+
+    <hr>
+
+    <!-- Object -->
+    <!-- <object> Tag: Embeds external resources -->
+    <h2>Object</h2>
+    <p>The <code>&lt;object&gt;</code> tag is also used to embed external content like videos or Flash. Example:</p>
+    <object data="example.pdf" type="application/pdf" width="500" height="400">
+        Alternative text if the object is not supported.
+    </object>
+</body>
+
+</html>
