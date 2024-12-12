@@ -4,68 +4,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Multimedia</title>
+    <title>HTML Multimedia with Attributes</title>
 </head>
 
 <body>
-    <h1>HTML Multimedia</h1>
-    <p>HTML allows you to add multimedia elements like images, audio, and video to make your web pages more interactive and engaging.</p>
+    <h1>HTML Multimedia with Attributes</h1>
+    <p>HTML provides multimedia elements like images, audio, and video, with various attributes for customization and accessibility.</p>
 
-    <!-- Image -->
-    <!-- <img> Tag: Displays images -->
-    <h2>Image</h2>
-    <p>The <code>&lt;img&gt;</code> tag is used to display images. Example:</p>
-    <img src="https://via.placeholder.com/300" alt="Placeholder Image" width="300">
+    <!-- Image Section -->
+    <!-- <img>: Used to display an image on the webpage -->
     <!-- Attributes:
-         src: Specifies the image source (URL or file path)
-         alt: Provides alternate text for the image (important for accessibility)
-         width, height: Sets the dimensions of the image -->
-
+         src: Specifies the path to the image file (required).
+         alt: Provides alternative text for the image (important for accessibility).
+         width, height: Set the dimensions of the image.
+         title: Adds a tooltip when hovering over the image.
+    -->
+    <h2>Image with Attributes</h2>
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image" width="300" height="200" title="Sample Image">
     <hr>
 
-    <!-- Audio -->
-    <!-- <audio> Tag: Embeds audio files -->
-    <h2>Audio</h2>
-    <p>The <code>&lt;audio&gt;</code> tag is used to play audio files. Example:</p>
-    <audio controls>
-        <!-- Attributes:
-             src: Path to the audio file
-             controls: Adds play, pause, and volume buttons -->
+    <!-- Audio Section -->
+    <!-- <audio>: Embeds audio content on the webpage -->
+    <!-- Definition: The <audio> tag is used to embed sound content such as music or podcasts. -->
+    <!-- Attributes:
+         src: Specifies the path to the audio file.
+         controls: Adds play, pause, and volume controls.
+         autoplay: Automatically starts playing the audio when the page loads.
+         loop: Repeats the audio indefinitely.
+         muted: Starts the audio with the volume muted.
+    -->
+    <h2>Audio with Attributes</h2>
+    <audio controls autoplay loop muted>
+        <!-- <source>: Specifies multiple sources for the audio -->
         <source src="example.mp3" type="audio/mpeg">
+        <!-- Fallback text for browsers that don't support the audio element -->
         Your browser does not support the audio element.
     </audio>
-
     <hr>
 
-    <!-- Video -->
-    <!-- <video> Tag: Embeds video files -->
-    <h2>Video</h2>
-    <p>The <code>&lt;video&gt;</code> tag is used to play video files. Example:</p>
-    <video width="400" controls>
-        <!-- Attributes:
-             width: Sets the width of the video
-             controls: Adds play, pause, and volume buttons -->
+    <!-- Video Section -->
+    <!-- <video>: Embeds video content on the webpage -->
+    <!-- Definition: The <video> tag is used to embed videos such as tutorials or entertainment content. -->
+    <!-- Attributes:
+         src: Specifies the path to the video file.
+         controls: Adds play, pause, and volume controls.
+         autoplay: Automatically starts playing the video when the page loads.
+         loop: Repeats the video indefinitely.
+         muted: Starts the video with the volume muted.
+         poster: Displays an image before the video starts playing.
+    -->
+    <h2>Video with Attributes</h2>
+    <video width="400" controls autoplay loop muted poster="https://via.placeholder.com/400x200">
+        <!-- <source>: Specifies multiple sources for the video -->
         <source src="example.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+        <!-- Fallback text for browsers that don't support the video element -->
+        Your browser does not support the video element.
     </video>
-
     <hr>
 
-    <!-- Embed -->
-    <!-- <embed> Tag: Embeds external content -->
-    <h2>Embed External Content</h2>
-    <p>The <code>&lt;embed&gt;</code> tag is used to embed external content, such as PDFs or Flash files. Example:</p>
-    <embed src="example.pdf" width="500" height="400">
-
+    <!-- Embed Section -->
+    <!-- <embed>: Embeds external content such as PDFs or other media -->
+    <!-- Definition: The <embed> tag is used to include external content directly into the webpage, like documents or multimedia. -->
+    <!-- Attributes:
+         src: Specifies the path to the embedded content.
+         width, height: Set the dimensions of the embedded content.
+         type: Specifies the type of content to embed (e.g., application/pdf).
+    -->
+    <h2>Embed with Attributes</h2>
+    <embed src="example.pdf" type="application/pdf" width="500" height="400">
     <hr>
 
-    <!-- Object -->
-    <!-- <object> Tag: Embeds external resources -->
-    <h2>Object</h2>
-    <p>The <code>&lt;object&gt;</code> tag is also used to embed external content like videos or Flash. Example:</p>
+    <!-- Object Section -->
+    <!-- <object>: Embeds external content, similar to <embed>, but more flexible -->
+    <!-- Definition: The <object> tag is used to embed multimedia, such as images, videos, or documents, with support for alternative content. -->
+    <!-- Attributes:
+         data: Specifies the URL of the object to display.
+         type: Specifies the type of content (e.g., application/pdf).
+         width, height: Set the dimensions of the object.
+    -->
+    <h2>Object with Attributes</h2>
     <object data="example.pdf" type="application/pdf" width="500" height="400">
-        Alternative text if the object is not supported.
+        <!-- Fallback text for browsers that don't support the object element -->
+        Your browser does not support this object type.
     </object>
+    <hr>
+
+    <!-- Iframe Section -->
+    <!-- <iframe>: Embeds another HTML document or media within the current webpage -->
+    <!-- Definition: The <iframe> tag is used to embed external content, such as another webpage, video, or map, within a defined rectangular area. -->
+    <!-- Attributes:
+         src: Specifies the URL of the content to embed.
+         width, height: Define the dimensions of the iframe.
+         title: Describes the iframe content for accessibility.
+         allow: Specifies permissions for the content inside the iframe (e.g., fullscreen, autoplay).
+         loading: Determines when the iframe content should be loaded (lazy or eager).
+    -->
+    <h2>Iframe with Attributes</h2>
+    <iframe src="https://example.com" width="600" height="400" title="Example Iframe" allow="fullscreen" loading="lazy"></iframe>
 </body>
 
 </html>
