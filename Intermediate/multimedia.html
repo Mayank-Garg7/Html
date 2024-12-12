@@ -11,76 +11,80 @@
     <h1>HTML Multimedia with Attributes</h1>
     <p>HTML provides multimedia elements like images, audio, and video, with various attributes for customization and accessibility.</p>
 
-    <!-- Image -->
+    <!-- Image Section -->
+    <!-- <img>: Used to display an image on the webpage -->
+    <!-- Attributes:
+         src: Specifies the path to the image file (required).
+         alt: Provides alternative text for the image (important for accessibility).
+         width, height: Set the dimensions of the image.
+         title: Adds a tooltip when hovering over the image.
+    -->
     <h2>Image with Attributes</h2>
-    <p>The <code>&lt;img&gt;</code> tag supports the following attributes:</p>
-    <ul>
-        <li><b>src</b>: Path to the image file (required).</li>
-        <li><b>alt</b>: Alternative text for accessibility (recommended).</li>
-        <li><b>width</b>, <b>height</b>: Set dimensions of the image.</li>
-        <li><b>title</b>: Provides additional information on hover.</li>
-    </ul>
-    <p>Example:</p>
     <img src="https://via.placeholder.com/300" alt="Placeholder Image" width="300" height="200" title="Sample Image">
     <hr>
 
-    <!-- Audio -->
+    <!-- Audio Section -->
+    <!-- <audio>: Embeds audio content on the webpage -->
+    <!-- Definition: The <audio> tag is used to embed sound content such as music or podcasts. -->
+    <!-- Attributes:
+         src: Specifies the path to the audio file.
+         controls: Adds play, pause, and volume controls.
+         autoplay: Automatically starts playing the audio when the page loads.
+         loop: Repeats the audio indefinitely.
+         muted: Starts the audio with the volume muted.
+    -->
     <h2>Audio with Attributes</h2>
-    <p>The <code>&lt;audio&gt;</code> tag supports these attributes:</p>
-    <ul>
-        <li><b>src</b>: Path to the audio file (can also use <code>&lt;source&gt;</code>).</li>
-        <li><b>controls</b>: Adds play, pause, and volume controls.</li>
-        <li><b>autoplay</b>: Plays the audio automatically on load.</li>
-        <li><b>loop</b>: Repeats the audio when it finishes.</li>
-        <li><b>muted</b>: Starts the audio muted by default.</li>
-    </ul>
-    <p>Example:</p>
     <audio controls autoplay loop muted>
+        <!-- <source>: Specifies multiple sources for the audio -->
         <source src="example.mp3" type="audio/mpeg">
+        <!-- Fallback text for browsers that don't support the audio element -->
         Your browser does not support the audio element.
     </audio>
     <hr>
 
-    <!-- Video -->
+    <!-- Video Section -->
+    <!-- <video>: Embeds video content on the webpage -->
+    <!-- Definition: The <video> tag is used to embed videos such as tutorials or entertainment content. -->
+    <!-- Attributes:
+         src: Specifies the path to the video file.
+         controls: Adds play, pause, and volume controls.
+         autoplay: Automatically starts playing the video when the page loads.
+         loop: Repeats the video indefinitely.
+         muted: Starts the video with the volume muted.
+         poster: Displays an image before the video starts playing.
+    -->
     <h2>Video with Attributes</h2>
-    <p>The <code>&lt;video&gt;</code> tag supports these attributes:</p>
-    <ul>
-        <li><b>src</b>: Path to the video file (can also use <code>&lt;source&gt;</code>).</li>
-        <li><b>controls</b>: Adds play, pause, and volume controls.</li>
-        <li><b>autoplay</b>: Plays the video automatically on load.</li>
-        <li><b>loop</b>: Repeats the video when it finishes.</li>
-        <li><b>poster</b>: Specifies an image to display before the video plays.</li>
-        <li><b>muted</b>: Starts the video muted by default.</li>
-    </ul>
-    <p>Example:</p>
     <video width="400" controls autoplay loop muted poster="https://via.placeholder.com/400x200">
+        <!-- <source>: Specifies multiple sources for the video -->
         <source src="example.mp4" type="video/mp4">
+        <!-- Fallback text for browsers that don't support the video element -->
         Your browser does not support the video element.
     </video>
     <hr>
 
-    <!-- Embed -->
+    <!-- Embed Section -->
+    <!-- <embed>: Embeds external content such as PDFs or other media -->
+    <!-- Definition: The <embed> tag is used to include external content directly into the webpage, like documents or multimedia. -->
+    <!-- Attributes:
+         src: Specifies the path to the embedded content.
+         width, height: Set the dimensions of the embedded content.
+         type: Specifies the type of content to embed (e.g., application/pdf).
+    -->
     <h2>Embed with Attributes</h2>
-    <p>The <code>&lt;embed&gt;</code> tag supports these attributes:</p>
-    <ul>
-        <li><b>src</b>: Path to the embedded content (e.g., PDF).</li>
-        <li><b>width</b>, <b>height</b>: Set dimensions of the embedded content.</li>
-        <li><b>type</b>: Specifies the type of embedded content (e.g., application/pdf).</li>
-    </ul>
-    <p>Example:</p>
     <embed src="example.pdf" type="application/pdf" width="500" height="400">
     <hr>
 
-    <!-- Object -->
+    <!-- Object Section -->
+    <!-- <object>: Embeds external content, similar to <embed>, but more flexible -->
+    <!-- Definition: The <object> tag is used to embed multimedia, such as images, videos, or documents, with support for alternative content. -->
+    <!-- Attributes:
+         data: Specifies the URL of the object to display.
+         type: Specifies the type of content (e.g., application/pdf).
+         width, height: Set the dimensions of the object.
+    -->
     <h2>Object with Attributes</h2>
-    <p>The <code>&lt;object&gt;</code> tag supports these attributes:</p>
-    <ul>
-        <li><b>data</b>: Path to the object file (e.g., PDF, Flash).</li>
-        <li><b>type</b>: Specifies the type of the embedded object (e.g., application/pdf).</li>
-        <li><b>width</b>, <b>height</b>: Set dimensions of the object.</li>
-    </ul>
-    <p>Example:</p>
     <object data="example.pdf" type="application/pdf" width="500" height="400">
+        <!-- Fallback text for browsers that don't support the object element -->
         Your browser does not support this object type.
     </object>
     <hr>
