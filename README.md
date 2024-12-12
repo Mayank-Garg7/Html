@@ -10,8 +10,6 @@
   - [Tag Explanations](https://github.com/Mayank-Garg7/Html/blob/main/HtmlNotes.pdf)
 - [HTML Roadmap](#html-roadmap)
 - [Html-Cheat-Sheet](https://github.com/Mayank-Garg7/Html/blob/main/HtmlCheatSheet.pdf)
-- [CSS Notes](https://github.com/Mayank-Garg7/Html/blob/main/CSS/CSSNotes.pdf)
-- [CSS Cheat Sheet](https://github.com/Mayank-Garg7/Html/blob/main/CSS/csscheatsheet.pdf)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
