@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Storage</title>
+</head>
+
+<body>
+    <h1>Web Storage API</h1>
+
+    <!-- Local Storage Section -->
+    <!-- Definition: Local Storage allows storing data with no expiration time. -->
+    <h2>Local Storage</h2>
+    <p>Local Storage is a key-value storage mechanism available in modern browsers. Data persists even after the browser is closed:</p>
+    <button onclick="saveToLocalStorage()">Save Data</button>
+    <button onclick="getFromLocalStorage()">Get Data</button>
+    <button onclick="clearLocalStorage()">Clear Data</button>
+    <p id="local-storage-result"></p>
+
+    <script>
+        function saveToLocalStorage() {
+            localStorage.setItem('key', 'This is local storage data');
+            document.getElementById('local-storage-result').innerText = 'Data saved to local storage!';
+        }
+
+        function getFromLocalStorage() {
+            const data = localStorage.getItem('key');
+            document.getElementById('local-storage-result').innerText = data || 'No data found!';
+        }
+
+        function clearLocalStorage() {
+            localStorage.removeItem('key');
+            document.getElementById('local-storage-result').innerText = 'Local storage cleared!';
+        }
+    </script>
+    <hr>
+
+    <!-- Session Storage Section -->
+    <!-- Definition: Session Storage allows storing data for the duration of the session (until the tab is closed). -->
+    <h2>Session Storage</h2>
+    <p>Session Storage is similar to Local Storage but data persists only while the tab is open:</p>
+    <button onclick="saveToSessionStorage()">Save Data</button>
+    <button onclick="getFromSessionStorage()">Get Data</button>
+    <button onclick="clearSessionStorage()">Clear Data</button>
+    <p id="session-storage-result"></p>
+
+    <script>
+        function saveToSessionStorage() {
+            sessionStorage.setItem('key', 'This is session storage data');
+            document.getElementById('session-storage-result').innerText = 'Data saved to session storage!';
+        }
+
+        function getFromSessionStorage() {
+            const data = sessionStorage.getItem('key');
+            document.getElementById('session-storage-result').innerText = data || 'No data found!';
+        }
+
+        function clearSessionStorage() {
+            sessionStorage.removeItem('key');
+            document.getElementById('session-storage-result').innerText = 'Session storage cleared!';
+        }
+    </script>
+    <hr>
+
+    <!-- Comparison of Local and Session Storage -->
+    <h2>Comparison</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Local Storage</th>
+                <th>Session Storage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Persistence</td>
+                <td>Persists until manually cleared</td>
+                <td>Cleared when the tab is closed</td>
+            </tr>
+            <tr>
+                <td>Capacity</td>
+                <td>5MB (varies by browser)</td>
+                <td>5MB (varies by browser)</td>
+            </tr>
+            <tr>
+                <td>Scope</td>
+                <td>Shared across all tabs/windows for the same domain</td>
+                <td>Specific to a single tab</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
