@@ -5,37 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colors and Layout</title>
+    <!-- Title: Sets the title of the webpage displayed on the browser tab -->
 </head>
 
 <body>
     <h1>Colors and Layout</h1>
+    <!-- Main heading to describe the purpose of the webpage -->
+
     <p>HTML provides ways to style content and structure layouts. You can define colors using six methods:</p>
+    <!-- Paragraph explaining the six methods to define colors in HTML -->
+
     <ul>
+        <!-- Unordered list to display the six color definition methods -->
         <li><strong>Color Name:</strong> Predefined names like <code>red</code>, <code>blue</code>, <code>green</code>.</li>
+        <!-- Example of predefined color names -->
         <li><strong>Hexadecimal Value:</strong> A combination of 6 digits, e.g., <code>#FF5733</code>.</li>
+        <!-- Example of hexadecimal color values -->
         <li><strong>RGB:</strong> A combination of red, green, and blue, e.g., <code>rgb(255, 87, 51)</code>.</li>
+        <!-- Example of RGB color values -->
         <li><strong>RGBA:</strong> RGB with an alpha (opacity) value, e.g., <code>rgba(255, 87, 51, 0.5)</code>.</li>
+        <!-- Example of RGBA color values -->
         <li><strong>HSL:</strong> Hue, Saturation, and Lightness, e.g., <code>hsl(16, 100%, 60%)</code>.</li>
+        <!-- Example of HSL color values -->
         <li><strong>HSLA:</strong> HSL with an alpha value, e.g., <code>hsla(16, 100%, 60%, 0.5)</code>.</li>
+        <!-- Example of HSLA color values -->
     </ul>
 
     <!-- Div: Generic container for grouping elements -->
+    <!-- Definition: Used to group elements for styling or layout purposes -->
     <div style="background-color: lightgray; padding: 10px;">
+        <!-- Inline style to set background color and padding -->
         <p><strong>Div:</strong> Used to group content together for styling and layout purposes.</p>
     </div>
 
     <br>
 
     <!-- Section: Groups related content -->
+    <!-- Definition: Represents a thematic grouping of content, usually with a heading -->
     <section id="info-section">
+        <!-- ID attribute to uniquely identify this section -->
         <h2>Section Title</h2>
+        <!-- Subheading for the section -->
         <p><strong>Section:</strong> Represents a thematic grouping of content, usually with a heading.</p>
     </section>
 
     <br>
 
     <!-- Article: Represents self-contained content -->
+    <!-- Definition: Used for independent, reusable content such as blog posts or news articles -->
     <article id="article1" style="border: 1px solid black; padding: 10px;">
+        <!-- ID to identify the article and inline styles for border and padding -->
         <h2>Article Title</h2>
         <p><strong>Article:</strong> Used for independent, reusable content such as blog posts or news articles.</p>
     </article>
@@ -43,19 +62,23 @@
     <br>
 
     <!-- Aside: Content tangentially related to the main content -->
+    <!-- Definition: Often used for supplementary content like sidebars, notes, or advertisements -->
     <aside id="sidebar" class="sidebar-style">
+        <!-- ID for unique identification and class for styling -->
         <p><strong>Aside:</strong> Often used for supplementary content like sidebars, notes, or advertisements.</p>
     </aside>
 
     <br>
 
     <!-- Iframe: Embeds another webpage or media -->
+    <!-- Definition: Used to embed external content such as a webpage or video -->
     <iframe 
         src="https://example.com" 
         width="400" 
         height="300" 
         title="Example Iframe" 
         style="border: 2px solid blue;">
+        <!-- Attributes: src (URL of the embedded content), width, height, title for accessibility, and inline style for border -->
     </iframe>
 </body>
 
