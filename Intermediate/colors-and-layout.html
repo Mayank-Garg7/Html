@@ -9,63 +9,54 @@
 
 <body>
     <h1>Colors and Layout</h1>
-    <p>HTML provides ways to style content and structure layout:</p>
+    <p>HTML provides ways to style content and structure layouts. You can define colors using six methods:</p>
+    <ul>
+        <li><strong>Color Name:</strong> Predefined names like <code>red</code>, <code>blue</code>, <code>green</code>.</li>
+        <li><strong>Hexadecimal Value:</strong> A combination of 6 digits, e.g., <code>#FF5733</code>.</li>
+        <li><strong>RGB:</strong> A combination of red, green, and blue, e.g., <code>rgb(255, 87, 51)</code>.</li>
+        <li><strong>RGBA:</strong> RGB with an alpha (opacity) value, e.g., <code>rgba(255, 87, 51, 0.5)</code>.</li>
+        <li><strong>HSL:</strong> Hue, Saturation, and Lightness, e.g., <code>hsl(16, 100%, 60%)</code>.</li>
+        <li><strong>HSLA:</strong> HSL with an alpha value, e.g., <code>hsla(16, 100%, 60%, 0.5)</code>.</li>
+    </ul>
 
     <!-- Div: Generic container for grouping elements -->
-    <!-- Definition: Used to group content together for styling and layout purposes. -->
-    <!-- Attributes:
-         - style: Allows inline CSS styling of the div.
-         -  For defining color we have below 6 ways
-    rgb, rgba, hsl, hsla, color name, hex value-->
     <div style="background-color: lightgray; padding: 10px;">
-        This is a div container.
+        <p><strong>Div:</strong> Used to group content together for styling and layout purposes.</p>
     </div>
 
     <br>
 
     <!-- Section: Groups related content -->
-    <!-- Definition: Represents a thematic grouping of content, usually with a heading. -->
-    <!-- Attributes:
-         - id: Assigns a unique identifier for the section, useful for navigation or styling. -->
     <section id="info-section">
         <h2>Section Title</h2>
-        <p>This is a section of the webpage.</p>
+        <p><strong>Section:</strong> Represents a thematic grouping of content, usually with a heading.</p>
     </section>
 
     <br>
 
     <!-- Article: Represents self-contained content -->
-    <!-- Definition: Used for content that is independent and reusable, such as blog posts or news articles. -->
-    <!-- Attributes:
-         - id: Unique identifier for targeting or styling.
-         - style: Inline styles to define appearance. -->
     <article id="article1" style="border: 1px solid black; padding: 10px;">
         <h2>Article Title</h2>
-        <p>This is an article within the webpage.</p>
+        <p><strong>Article:</strong> Used for independent, reusable content such as blog posts or news articles.</p>
     </article>
 
     <br>
 
     <!-- Aside: Content tangentially related to the main content -->
-    <!-- Definition: Used for supplementary content like sidebars, notes, or advertisements. -->
-    <!-- Attributes:
-         - class: Assigns a CSS class to the aside for styling.
-         - id: Unique identifier for this aside. -->
     <aside id="sidebar" class="sidebar-style">
-        <p>This is an aside, often used for sidebars or notes.</p>
+        <p><strong>Aside:</strong> Often used for supplementary content like sidebars, notes, or advertisements.</p>
     </aside>
 
     <br>
 
     <!-- Iframe: Embeds another webpage or media -->
-    <!-- Definition: Used to embed an external webpage, video, or other media into the current page. -->
-    <!-- Attributes:
-         - src: Specifies the URL of the embedded content.
-         - width: Sets the width of the iframe (in pixels or percentage).
-         - height: Sets the height of the iframe (in pixels or percentage).
-         - title: Describes the iframe content for accessibility.
-         - frameborder (deprecated): Specifies whether the iframe has a border (values: 0 or 1). -->
-    <iframe src="https://example.com" width="400" height="300" title="Example Iframe" style="border: 2px solid blue;"></iframe>
+    <iframe 
+        src="https://example.com" 
+        width="400" 
+        height="300" 
+        title="Example Iframe" 
+        style="border: 2px solid blue;">
+    </iframe>
 </body>
 
 </html>
