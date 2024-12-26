@@ -1,0 +1,73 @@
+/* Apply basic styles to all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background color of the entire page */
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+/* Style for the main container of the blog preview card */
+.container {
+    margin: auto; /* Center the container horizontally */
+    margin-top: 25px; /* Add top margin for spacing */
+    padding: 15px;
+    height: auto; /* Allow the container to adjust its height based on content */
+    width: 90%; /* Set the initial width of the container */
+    max-width: 350px; /* Limit the maximum width of the container */
+    background-color: hsl(0, 8%, 90%); /* Background color for the container */
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 15px 15px 10px rgb(10, 9, 9); /* Box shadow for a subtle lift */
+}
+
+/* Remove box shadow on hover for a cleaner look */
+.container:hover {
+    box-shadow: none;
+}
+
+/* Style for the SVG element inside the container */
+svg {
+    width: 100%; /* Make the SVG element take up 100% of its container's width */
+    max-width: 315px; /* Limit the maximum width of the SVG */
+    border-radius: 9%;
+}
+
+/* Style for the button inside the container */
+button {
+    width: 50%; /* Set the width of the button to 50% of its container */
+    height: auto; /* Allow the button to adjust its height based on content */
+    margin-bottom: 5px; /* Add bottom margin for spacing */
+    background-color: hsl(47, 88%, 63%); /* Background color for the button */
+    border: none; /* Remove border */
+    padding: 8px; /* Add padding for a comfortable touch */
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Style for the footer section containing the author information */
+.footer {
+    display: flex; /* Use flexbox for layout */
+    margin-top: 20px; /* Add top margin for spacing */
+}
+
+/* Style for the author name in the footer */
+.footer > b {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items in the center vertically */
+    margin-left: 10px; /* Add left margin for spacing */
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%; /* Adjust the width of the container for smaller screens */
+    }
+
+    button {
+        padding: 6px; /* Adjust the padding of the button for smaller screens */
+    }
+}

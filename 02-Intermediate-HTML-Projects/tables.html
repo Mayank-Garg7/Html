@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+</head>
+
+<body>
+    <h1>HTML Tables</h1>
+    <p>Tables are used to organize data into rows and columns:</p>
+
+    <!-- Table: Defines a table structure -->
+    <!-- Attributes:
+         - border: Specifies the border width around the table. -->
+    <table border="1">
+        <!-- Thead: Contains the table's header row -->
+        <!-- Attributes:
+             - align (deprecated): Aligns content in the table header (left, center, right). -->
+        <thead>
+            <!-- Tr: Defines a table row -->
+            <tr>
+                <!-- Th: Table header cell, typically bold and centered -->
+                <!-- Attributes:
+                     - colspan: Specifies the number of columns a cell should span.
+                     - rowspan: Specifies the number of rows a cell should span. -->
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+
+        <!-- Tbody: Contains the main content of the table -->
+        <tbody>
+            <tr>
+                <!-- Td: Table data cell -->
+                <td>John</td>
+                <td>25</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>30</td>
+                <td>Los Angeles</td>
+            </tr>
+        </tbody>
+
+        <!-- Tfoot: Contains summary or footer information for the table -->
+        <tfoot>
+            <tr>
+                <!-- Colspan: Makes this cell span 3 columns -->
+                <td colspan="3">Total: 2 Rows</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br><br>
+
+    <!-- Colgroup: Groups columns for shared styling -->
+    <!-- Attributes:
+         - span: Specifies the number of columns the group applies to. -->
+    <table border="1">
+        <colgroup>
+            <!-- Col: Defines properties for individual columns -->
+            <!-- Attributes:
+                 - style: Inline CSS to style the column. -->
+            <col style="background-color: lightgray;">
+            <col style="background-color: lightblue;">
+        </colgroup>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+        </tr>
+    </table>
+</body>
+
+</html>

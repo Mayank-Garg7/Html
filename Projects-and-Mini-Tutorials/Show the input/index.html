@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2 id="heading">
+            <input type="text" id="input" onkeyup="abc()" placeholder="Enter A text">
+        </h2>
+    </div>
+    <script>
+        function abc(){
+            var heading = document.getElementById('heading');
+            var input = document.getElementById('input');
+            heading.innerHTML= input.value;
+        }
+    </script>
+</body>
+</html>

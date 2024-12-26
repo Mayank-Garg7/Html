@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Inputs</title>
+</head>
+
+<body>
+    <h1>HTML Forms and Input Elements</h1>
+    
+    <!-- Form: Collects and submits user input to a server -->
+    <!-- Attributes:
+         - action: Specifies the URL to which the form data will be sent.
+         - method: Defines the HTTP method used to send the data (GET or POST). -->
+    <form action="/submit" method="post">
+        
+        <!-- Label: Links to an input field to improve accessibility -->
+        <!-- Attributes:
+             - for: Associates the label with the input element by its ID. -->
+        <label for="name">Name:</label>
+
+        <!-- Input: Allows users to enter data. 
+             Attributes:
+             - type: Specifies the type of input (e.g., text, password, radio).
+             - id: Unique identifier for the input element.
+             - name: Name of the input field for form data submission.
+             - placeholder: Provides a hint about the expected input.
+             - required: Makes the input field mandatory. -->
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <!-- Fieldset: Groups related input elements within a form -->
+        <!-- Attributes:
+             - disabled: Disables all elements within the fieldset.
+             - name: Specifies a name for the group of inputs (used in scripting). -->
+        <fieldset>
+            <!-- Legend: Provides a caption or title for the fieldset -->
+            <legend>Personal Details</legend>
+
+            <!-- Textarea: Accepts multi-line text input -->
+            <!-- Attributes:
+                 - id: Unique identifier for the textarea element.
+                 - name: Specifies the name for form data submission.
+                 - rows: Defines the number of visible text lines.
+                 - cols: Defines the width of the text area in characters.
+                 - placeholder: Provides a hint about the expected input. -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Write your message"></textarea>
+            <br><br>
+
+            <!-- Select: Creates a dropdown menu for user selection -->
+            <!-- Attributes:
+                 - id: Unique identifier for the select element.
+                 - name: Specifies the name for form data submission.
+                 - multiple: Allows selecting multiple options. -->
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <!-- Option: Defines choices within a dropdown menu -->
+                <!-- Attributes:
+                     - value: Specifies the value sent to the server when selected.
+                     - selected: Makes the option pre-selected. -->
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <!-- Input: Accepts sensitive data like passwords -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <!-- Radio Button: Allows selecting one option from multiple choices -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Checkbox: Allows selecting multiple choices -->
+        <label>Hobbies:</label>
+        <input type="checkbox" id="sports" name="hobby" value="Sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="reading" name="hobby" value="Reading">
+        <label for="reading">Reading</label>
+        <br><br>
+
+        <!-- Input (Submit): Sends the form data to the server -->
+        <input type="submit" value="Submit">
+        
+        <!-- Input (Reset): Clears all input fields in the form -->
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
