@@ -1,11 +1,9 @@
 How to Use HTML Tags
-
 HTML tags are the building blocks of a web page. They define the structure and content of a document. Here’s how to use them effectively:
 
-
 Basic Syntax
-
 Tags are enclosed in angle brackets: <tag>.
+
 Most tags have an opening and closing tag:
 
 <p>This is a paragraph.</p>
