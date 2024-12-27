@@ -2,6 +2,7 @@
 *.txt linguist-documentation=false
 
 
+
 # Include images in language stats
 # *.jpg linguist-vendored=false
 # *.jpeg linguist-vendored=false
@@ -15,3 +16,4 @@
 # *.mov linguist-vendored=false
 # *.avi linguist-vendored=false
 # *.mkv linguist-vendored=false
+
