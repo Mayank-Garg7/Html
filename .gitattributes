@@ -2,16 +2,18 @@
 *.txt linguist-documentation=false
 
 
-Include images in language stats
-*.jpg linguist-vendored=false
-*.jpeg linguist-vendored=false
-*.png linguist-vendored=false
-*.gif linguist-vendored=false
-*.svg linguist-vendored=false
-*.jfif linguist-vendored=false
 
-Include videos in language stats
-*.mp4 linguist-vendored=false
-*.mov linguist-vendored=false
-*.avi linguist-vendored=false
-*.mkv linguist-vendored=false
+# Include images in language stats
+# *.jpg linguist-vendored=false
+# *.jpeg linguist-vendored=false
+# *.png linguist-vendored=false
+# *.gif linguist-vendored=false
+# *.svg linguist-vendored=false
+# *.jfif linguist-vendored=false
+
+# Include videos in language stats
+# *.mp4 linguist-vendored=false
+# *.mov linguist-vendored=false
+# *.avi linguist-vendored=false
+# *.mkv linguist-vendored=false
+
