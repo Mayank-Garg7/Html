@@ -1,0 +1,130 @@
+HTML Document Structure 
+
+1. <!DOCTYPE html> 
+    Declares the document type as HTML5. It ensures the browser interprets the page as HTML.
+2. <html lang="en"> 
+    Starts the HTML document and sets the language attribute to English ( en ).
+3. <head> 
+    Contains metadata about the HTML document, like its character set, title, and other settings.
+4. <meta charset="UTF-8"> 
+    Specifies the character encoding as UTF-8 to support various languages and symbols.
+5. <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    Ensures the webpage is responsive, adjusting the layout based on the device's screen size.
+6. <title>Basic HTML Tags</title> 
+    Sets the title of the webpage, displayed on the browser tab.
+
+ ---------------------------------------------------------------------------------------------
+
+Content Section 
+
+1. <body> 
+    The main content of the webpage begins here.
+
+ ---------------------------------------------------------------------------------------------
+ 
+
+Headings 
+
+1. <h1>Welcome to Basic HTML Tags</h1> 
+    The largest heading, introducing the webpage.
+2. <h2>Introduction to HTML Tags</h2> 
+    A subheading providing context for the section.
+3. <h3>Subheading Example</h3> 
+    A smaller subheading, further structuring the content.
+
+ ---------------------------------------------------------------------------------------------
+ 
+
+Paragraphs 
+
+1. <p>HTML stands for HyperText Markup Language. It is used to structure content on the web.</p> 
+    A paragraph explaining the purpose of HTML.
+2. <p>In this section, we will explore some of the most commonly used HTML tags.</p> 
+    Another paragraph introducing the content to be discussed.
+
+ ---------------------------------------------------------------------------------------------
+ 
+
+ Links 
+
+1. <a href="../../../01-Introduction-to-HTML/" target="_blank">Learn more about HTML</a> 
+    A hyperlink pointing to another webpage or resource.
+    The  href  attribute specifies the link's URL.
+    The  target="_blank"  attribute opens the link in a new tab.
+
+ ---------------------------------------------------------------------------------------------
+ 
+
+ Images 
+
+1. <img src="../assets/images/nature.jpg" alt="HTML Example Image" width="400"> 
+    Embeds an image into the webpage.
+    src  specifies the file path of the image.
+    alt  provides alternative text for accessibility.
+    width  sets the image's width to 400 pixels.
+
+ ---------------------------------------------------------------------------------------------
+ 
+
+ Unordered List 
+
+1. <h3>Common HTML Tags</h3> 
+    A heading introducing the list of tags.
+2. <ul> 
+    Begins an unordered (bulleted) list.
+3. <li>&lt;h1&gt; to &lt;h6&gt;: Headings</li> 
+    A list item describing heading tags ( <h1>  to  <h6> ).
+4. <li>&lt;p&gt;: Paragraph</li> 
+    A list item explaining the paragraph tag ( <p> ).
+5. <li>&lt;a&gt;: Links</li> 
+    A list item for the anchor tag ( <a> ), used for hyperlinks.
+6. <li>&lt;img&gt;: Images</li> 
+    A list item for the image tag ( <img> ).
+7. <li>&lt;ul&gt; and &lt;li&gt;: Lists</li> 
+    A list item describing unordered lists ( <ul> ) and list items ( <li> ).
+8. </ul> 
+    Ends the unordered list.
+
+ ---------------------------------------------------------------------------------------------
+ 
+
+ Ordered List 
+
+1. <h3>Steps to Create a Basic Webpage</h3> 
+    A heading introducing a step-by-step guide.
+2. <ol> 
+    Begins an ordered (numbered) list.
+3. <li>Define the document type with <code>&lt;!DOCTYPE html&gt;</code>.</li> 
+    A step explaining the declaration of document type.
+4. <li>Add the <code>&lt;html&gt;</code> element to enclose the content.</li> 
+    A step mentioning the use of the  <html>  tag.
+5. <li>Include metadata in the <code>&lt;head&gt;</code> section.</li> 
+    A step about adding metadata inside the  <head>  tag.
+6. <li>Add visible content in the <code>&lt;body&gt;</code> section.</li> 
+    A step explaining the purpose of the  <body>  tag.
+7. </ol> 
+    Ends the ordered list.
+
+ ---------------------------------------------------------------------------------------------
+ 
+
+ Horizontal Line 
+
+1. <hr> 
+    Inserts a horizontal line to visually separate sections.
+
+ ---------------------------------------------------------------------------------------------
+ 
+
+ Emphasized Text 
+
+1. <p><strong>Note:</strong> Use semantic tags for better accessibility and SEO.</p> 
+    A paragraph with bold text ( <strong> ) for emphasis.
+2. <p><em>This example demonstrates the basic structure of HTML tags.</em></p> 
+    A paragraph with italicized text ( <em> ) for emphasis.
+3. </body> 
+    Ends the main content section.
+4. </html> 
+    Ends the HTML document.
+
+ ---------------------------------------------------------------------------------------------
