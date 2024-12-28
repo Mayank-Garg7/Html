@@ -12,7 +12,7 @@ HTML tags are the building blocks of a web page. They define the structure and c
      
    - Some tags are self-closing (e.g., <img>):
      
-       <img src="image.jpg" alt="Description">
+       <img src="../assets/images/self-closing-tag.png" alt="Description">
      
 
 ---
@@ -36,7 +36,7 @@ HTML tags are the building blocks of a web page. They define the structure and c
 
    - **Images**: Display visual content.
      
-       <img src="assets/images/example.png" alt="Example Image">
+       <img src="../assets/images/example.jpg" alt="Example Image">
      
 
    - **Lists**:
