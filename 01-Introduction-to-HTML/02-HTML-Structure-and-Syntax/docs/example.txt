@@ -1,0 +1,35 @@
+## HTML Structure Guide
+
+ DOCTYPE Declaration:
+The DOCTYPE declaration is the first line in an HTML document. It ensures the browser renders the page in standards mode.
+ html
+<!DOCTYPE html>
+ 
+
+ Basic Structure of an HTML Document:
+Every HTML document should have the following structure:
+ html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Title</title>
+</head>
+<body>
+    <! Content goes here -->
+</body>
+</html>
+ 
+
+ Key Points:
+1. The  <html>  element is the root of the HTML document.
+2. The  <head>  element contains metadata, links, and scripts.
+3. The  <body>  element contains the visible content.
+4. Always use proper nesting and closing tags.
+
+ Tips:
+ Use semantic HTML elements for better accessibility.
+ Indent code consistently for readability.
+
+ 
