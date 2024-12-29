@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn the basics of HTML forms, including input fields, labels, buttons, and structure for a better user experience and SEO.">
+    <title>HTML Forms Basics</title>
+</head>
+<body>
+    <header>
+        <h1>HTML Forms Basics</h1>
+    </header>
+    <main>
+        <form action="/submit-form" method="POST">
+            <fieldset>
+                <legend>Basic Information</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+
+                <label for="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe"> Subscribe to Newsletter
+                </label>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 HTML Tutorials</p>
+    </footer>
+</body>
+</html>
