@@ -1,81 +1,64 @@
 HTML Forms Basics Example
 This HTML document demonstrates the basics of creating a form in HTML. Below is the line-by-line explanation of the code:
 
-HTML Structure
-<!DOCTYPE html>
-Defines the document type as HTML5.
 
-<html lang="en">
-Opens the HTML document and sets the language to English.
+1. <header>
+    Contains the main heading of the page.
 
-<head>
-Contains meta information and the title of the document.
+2. <h1>HTML Forms Basics</h1>: Displays the primary heading of the page.
+    <main>
+    Holds the primary content of the webpage.
 
-<meta charset="UTF-8">
-Specifies the character encoding as UTF-8.
+3. Form Section
+    <form action="/submit-form" method="POST">
+    Defines the form with a POST method and a submission URL of /submit-form.
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-Ensures the page is responsive and adapts to different screen sizes.
+4. Fieldset 1: Basic Information
+    <fieldset>
+    Groups related form elements for better organization.
 
-<meta name="description" content="Learn the basics of HTML forms, including input fields, labels, buttons, and structure for a better user experience and SEO.">
-Provides a description of the page content for search engines.
+5. <legend>Basic Information</legend>
+    Provides a title for the group of form elements.
 
-<title>HTML Forms Basics</title>
-Sets the title of the webpage, which appears in the browser tab.
+6. Name Field:
+    <label for="name">Name:</label>: Label for the name input field.
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>: A text input field for entering a name. The required attribute ensures the field must be filled.
 
-<body>
-The main content of the webpage resides here.
+7. Email Field:
+    <label for="email">Email:</label>: Label for the email input field.
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>: An input field for entering an email address. The type="email" ensures proper validation.
 
-<header>
-Contains the main heading of the page.
+8. Password Field:
+    <label for="password">Password:</label>: Label for the password input field.
+    <input type="password" id="password" name="password" required>: A password input field. The type="password" hides the entered text.
 
-<h1>HTML Forms Basics</h1>: Displays the primary heading of the page.
-<main>
-Holds the primary content of the webpage.
+9. Fieldset 2: Preferences
+    <legend>Preferences</legend>
+    Provides a title for the preferences section.
 
-Form Section
-<form action="/submit-form" method="POST">
-Defines the form with a POST method and a submission URL of /submit-form.
+10. Gender Selection:
+    <label>Gender:</label>: Indicates the following options are for gender selection.
+    <input type="radio" id="male" name="gender" value="male">: Radio button for "Male".
+    <label for="male">Male</label>: Label for the "Male" radio button.
+    <input type="radio" id="female" name="gender" value="female">: Radio button for "Female".
+    <label for="female">Female</label>: Label for the "Female" radio button.
 
-Fieldset 1: Basic Information
-<fieldset>
-Groups related form elements for better organization.
+11. Subscribe Checkbox:
+    <label for="subscribe">: Label for the subscription checkbox.
+    <input type="checkbox" id="subscribe" name="subscribe">: Checkbox for subscribing to the newsletter.
 
-<legend>Basic Information</legend>
-Provides a title for the group of form elements.
+12. Submit Button
+    <button type="submit">Submit</button>: Button to submit the form data.
 
-Name Field:
-<label for="name">Name:</label>: Label for the name input field.
-<input type="text" id="name" name="name" placeholder="Enter your name" required>: A text input field for entering a name. The required attribute ensures the field must be filled.
-Email Field:
-<label for="email">Email:</label>: Label for the email input field.
-<input type="email" id="email" name="email" placeholder="Enter your email" required>: An input field for entering an email address. The type="email" ensures proper validation.
-Password Field:
-<label for="password">Password:</label>: Label for the password input field.
-<input type="password" id="password" name="password" required>: A password input field. The type="password" hides the entered text.
-Fieldset 2: Preferences
-<legend>Preferences</legend>
-Provides a title for the preferences section.
+13. <footer>
+    Contains footer information.
 
-Gender Selection:
-<label>Gender:</label>: Indicates the following options are for gender selection.
-<input type="radio" id="male" name="gender" value="male">: Radio button for "Male".
-<label for="male">Male</label>: Label for the "Male" radio button.
-<input type="radio" id="female" name="gender" value="female">: Radio button for "Female".
-<label for="female">Female</label>: Label for the "Female" radio button.
-Subscribe Checkbox:
-<label for="subscribe">: Label for the subscription checkbox.
-<input type="checkbox" id="subscribe" name="subscribe">: Checkbox for subscribing to the newsletter.
-Submit Button
-<button type="submit">Submit</button>: Button to submit the form data.
-<footer>
-Contains footer information.
+14. <p>&copy; 2024 HTML Tutorials</p>: Displays copyright information.
+    Key Features Demonstrated
 
-<p>&copy; 2024 HTML Tutorials</p>: Displays copyright information.
-Key Features Demonstrated
-Input fields: Text, email, and password.
-Radio buttons for gender selection.
-Checkbox for additional preferences.
-Organized sections using <fieldset> and <legend>.
-Semantic HTML structure with <header>, <main>, and <footer>.
-This example is a simple and practical way to understand how to create and structure an HTML form for user input.
+    Input fields: Text, email, and password.
+    Radio buttons for gender selection.
+    Checkbox for additional preferences.
+    Organized sections using <fieldset> and <legend>.
+
+    Semantic HTML structure with <header>, <main>, and <footer>.
