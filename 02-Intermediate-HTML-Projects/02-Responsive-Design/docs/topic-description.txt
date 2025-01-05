@@ -1,0 +1,16 @@
+Responsive Design:
+
+1. Media Queries:
+   - Media queries allow you to apply different styles depending on the screen size or device.
+   - Example: `@media (max-width: 768px) { ... }`
+
+2. Flexible Grids:
+   - Use relative units like percentages for layout widths instead of fixed pixels.
+
+3. Responsive Images:
+   - Ensure images scale properly within their containers.
+   - Use CSS properties like `max-width: 100%;` and `height: auto;`.
+
+Tips:
+- Always include a viewport meta tag in the `<head>` section of your HTML.
+- Test your design on different devices or using browser developer tools.
