@@ -86,7 +86,7 @@ Here are the main building blocks of an HTML page:
 - Add visuals to your webpage.  
 - **Example:**  
   ```html
-  <img src="../assets/images/nature.jpg" alt="a beutigul view of nature">
+  <img src="../assets/images/nature.jpg" alt="A beautiful view of nature">
   ```
 
 ### Links (`<a>`)
