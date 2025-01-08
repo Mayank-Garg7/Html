@@ -25,9 +25,5 @@
 - [JSFiddle](https://jsfiddle.net/) - Test and share your code snippets.
 - [Replit](https://replit.com/) - Online IDE with support for many programming languages.
 
-## Browser Support for Multimedia
-- [Can I Use](https://caniuse.com/) - Check browser compatibility for HTML features.
-
----
 
 These files are beginner-friendly and provide essential knowledge to get started with multimedia in HTML. Let me know if you’d like more additions!
