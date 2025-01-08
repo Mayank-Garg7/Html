@@ -4,10 +4,6 @@
 - [W3Schools HTML Tutorial](https://www.w3schools.com/html/)
 - [MDN Web Docs: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-## Multimedia in HTML
-- [W3Schools Multimedia Guide](https://www.w3schools.com/html/html_media.asp)
-- [MDN Web Docs: Multimedia](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding)
-- 
 ## Image Resources
 - [Unsplash](https://unsplash.com/) - Free high-quality images.
 - [Pexels](https://www.pexels.com/) - Free stock photos and videos.
