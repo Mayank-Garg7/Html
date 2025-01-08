@@ -7,11 +7,7 @@
 ## Multimedia in HTML
 - [W3Schools Multimedia Guide](https://www.w3schools.com/html/html_media.asp)
 - [MDN Web Docs: Multimedia](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding)
-
-## Free Online Courses
-- [FreeCodeCamp](https://www.freecodecamp.org/)
-- [Khan Academy: Intro to HTML](https://www.khanacademy.org/computing/computer-programming/html-css)
-
+- 
 ## Image Resources
 - [Unsplash](https://unsplash.com/) - Free high-quality images.
 - [Pexels](https://www.pexels.com/) - Free stock photos and videos.
