@@ -1,4 +1,3 @@
-<!-- README.md -->
 # Overview of HTML
 
 ## What is HTML?

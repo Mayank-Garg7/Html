@@ -42,5 +42,4 @@ Here’s a line-by-line explanation index.html file:
 14. </html>
     Ends the HTML document.
 
-
 This structure organizes the content into clear sections: header, main, and footer, following best practices for readability and usability.

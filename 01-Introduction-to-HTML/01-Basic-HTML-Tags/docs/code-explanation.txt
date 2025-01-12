@@ -1,4 +1,4 @@
-HTML Document Structure 
+HTML Document Structure:-
 
 1. <!DOCTYPE html> 
     Declares the document type as HTML5. It ensures the browser interprets the page as HTML.
