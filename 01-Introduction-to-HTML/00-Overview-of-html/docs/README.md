@@ -2,6 +2,8 @@
 
 Welcome to your HTML learning journey! This repository is designed to help you get started with HTML and web development. Whether you're a beginner or looking to brush up on your skills, this guide will take you step by step through the basics.
 
+---
+
 ## Understanding the Files in This Repository
 
 This repository contains several important files that serve different purposes in your HTML learning process:
