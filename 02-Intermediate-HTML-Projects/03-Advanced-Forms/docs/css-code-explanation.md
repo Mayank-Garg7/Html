@@ -4,6 +4,33 @@ This document explains the functionality and styling provided by each section of
 
 ---
 
+## **1. Universal Selector**
+
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+```
+
+### **Explanation:**
+- **`*` (Universal Selector):**
+  - The universal selector applies the specified styles to all elements on the page.
+- **`margin: 0;`**
+  - Removes the default margin applied by browsers to various elements (e.g., body, headings, paragraphs).
+- **`padding: 0;`**
+  - Removes the default padding applied by browsers to various elements.
+- **`box-sizing: border-box;`**
+  - Changes the box model behavior:
+    - The `border` and `padding` are included in the element's total width and height, rather than adding to them.
+    - Makes layout calculations more predictable, especially when setting widths and heights.
+- **Why Use This Rule?**
+  - Ensures consistent styling across different browsers by eliminating default margins and padding.
+  - Prevents unexpected layout issues caused by the default box model behavior.
+
+---
+
 ## **1. General Body Styling**
 
 ```css
