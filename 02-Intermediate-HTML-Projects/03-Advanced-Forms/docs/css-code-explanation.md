@@ -31,7 +31,7 @@ This document explains the functionality and styling provided by each section of
 
 ---
 
-## **1. General Body Styling**
+## **2. General Body Styling**
 
 ```css
 body {
@@ -48,7 +48,7 @@ body {
 
 ---
 
-## **2. Form Styling**
+## **3. Form Styling**
 
 ```css
 form {
@@ -65,7 +65,7 @@ form {
 
 ---
 
-## **3. Fieldset Styling**
+## **4. Fieldset Styling**
 
 ```css
 fieldset {
@@ -85,7 +85,7 @@ fieldset {
 
 ---
 
-## **4. Legend Styling**
+## **5. Legend Styling**
 
 ```css
 legend {
@@ -102,7 +102,7 @@ legend {
 
 ---
 
-## **5. Form Group Styling**
+## **6. Form Group Styling**
 
 ```css
 .form-group {
@@ -116,7 +116,7 @@ legend {
 
 ---
 
-## **6. Label Styling**
+## **7. Label Styling**
 
 ```css
 label {
@@ -136,7 +136,7 @@ label {
 
 ---
 
-## **7. Input, Select, and Textarea Styling**
+## **8. Input, Select, and Textarea Styling**
 
 ```css
 input, select, textarea {
@@ -159,7 +159,7 @@ input, select, textarea {
 
 ---
 
-## **8. Button Styling**
+## **9. Button Styling**
 
 ```css
 button {
@@ -188,7 +188,7 @@ button {
 
 ---
 
-## **9. Button Hover Effect**
+## **10. Button Hover Effect**
 
 ```css
 button:hover {
