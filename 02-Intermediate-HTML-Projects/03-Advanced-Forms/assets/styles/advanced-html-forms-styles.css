@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 body {
-    font-family: Arial, sans-serif;
     margin: 20px;
 }
 form {
@@ -45,3 +45,8 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+#color{
+    padding: 1.5px;
+    border-radius: 3px;
+}
+
