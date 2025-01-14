@@ -86,4 +86,3 @@ Thank you for checking out this project! We hope you find it helpful as you lear
 4. **Additional Information**: A short explanation about SVG, its benefits, and its use.
 5. **License**: Mention the open-source license under which the project is shared.
 
-This `README.md` provides a complete guide to users for navigating and using the project efficiently. It also helps in improving SEO by including relevant keywords and descriptive headings. Let me know if you'd like any further changes!
