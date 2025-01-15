@@ -1,4 +1,4 @@
-### Explanation of the CSS Code
+# Explanation of the CSS Code
 
 This CSS file defines styles for an HTML page, focusing on creating a visually appealing layout, styling a canvas element, and ensuring responsiveness for different screen sizes.
 
