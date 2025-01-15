@@ -3,39 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styles/style.css">
     <title>HTML Canvas Example</title>
-    <style>
-        canvas {
-            border: 1px solid black;
-            display: block;
-            margin: 20px auto;
-        }
-    </style>
 </head>
 <body>
     <h1>HTML Canvas Example</h1>
     <canvas id="myCanvas" width="500" height="300"></canvas>
-
-    <script>
-        const canvas = document.getElementById('myCanvas');
-        const ctx = canvas.getContext('2d');
-
-        // Draw a rectangle
-        ctx.fillStyle = 'blue';
-        ctx.fillRect(50, 50, 200, 100);
-
-        // Draw a gradient
-        const gradient = ctx.createLinearGradient(0, 0, 500, 0);
-        gradient.addColorStop(0, 'red');
-        gradient.addColorStop(1, 'yellow');
-        ctx.fillStyle = gradient;
-        ctx.fillRect(50, 200, 400, 50);
-
-        // Draw a circle
-        ctx.beginPath();
-        ctx.arc(300, 100, 50, 0, 2 * Math.PI);
-        ctx.fillStyle = 'green';
-        ctx.fill();
-    </script>
 </body>
 </html>
