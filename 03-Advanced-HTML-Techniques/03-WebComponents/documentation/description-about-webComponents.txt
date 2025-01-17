@@ -1,0 +1,26 @@
+# Topic Description: Web Components
+
+## Overview
+Web Components are a set of web platform APIs that allow developers to create custom, reusable, and encapsulated HTML elements. These components work seamlessly with the DOM and other JavaScript frameworks.
+
+## Key Concepts
+1. **Custom Elements**:
+   - Define your own HTML tags using JavaScript.
+   - Example: `<my-component>`.
+
+2. **Shadow DOM**:
+   - Provides encapsulation for DOM and CSS, ensuring no conflicts with other parts of the page.
+
+3. **HTML Templates**:
+   - Predefined structures used as blueprints for creating DOM elements.
+
+## Use Cases
+- Building reusable UI components like buttons, modals, or widgets.
+- Encapsulating styles and functionality to prevent conflicts.
+- Integrating third-party libraries into applications.
+
+## Example
+In `example.html`, a custom component `<my-component>` is defined. It uses Shadow DOM to encapsulate its content, ensuring the style and structure are isolated from the rest of the page.
+
+## Further Reading
+- [MDN: Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
