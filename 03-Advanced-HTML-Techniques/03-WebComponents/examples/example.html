@@ -4,6 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Components Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    h1 {
+      font-size: 2em;
+      color: #0078d7;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    my-component {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
   <h1>Custom Web Component Example</h1>
@@ -20,9 +47,25 @@
         // Create content for the shadow DOM
         const wrapper = document.createElement('div');
         wrapper.textContent = "Hello, this is a custom Web Component!";
-        wrapper.style.cssText = "padding: 10px; background-color: #f0f0f0; border: 1px solid #ccc;";
+        wrapper.style.cssText = `
+          padding: 20px;
+          background-color: #0078d7;
+          color: #fff;
+          border-radius: 10px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          text-align: center;
+          font-size: 1.2em;
+        `;
 
-        // Append content to shadow root
+        const icon = document.createElement('div');
+        icon.textContent = "👋";
+        icon.style.cssText = `
+          font-size: 2em;
+          margin-bottom: 10px;
+        `;
+
+        // Append elements to shadow root
+        shadow.appendChild(icon);
         shadow.appendChild(wrapper);
       }
     }
