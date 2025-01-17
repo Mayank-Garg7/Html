@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Components Example</title>
+</head>
+<body>
+  <h1>Custom Web Component Example</h1>
+  <my-component></my-component>
+
+  <script>
+    class MyComponent extends HTMLElement {
+      constructor() {
+        super();
+
+        // Attach a shadow root to the custom element
+        const shadow = this.attachShadow({ mode: 'open' });
+
+        // Create content for the shadow DOM
+        const wrapper = document.createElement('div');
+        wrapper.textContent = "Hello, this is a custom Web Component!";
+        wrapper.style.cssText = "padding: 10px; background-color: #f0f0f0; border: 1px solid #ccc;";
+
+        // Append content to shadow root
+        shadow.appendChild(wrapper);
+      }
+    }
+
+    // Define the custom element
+    customElements.define('my-component', MyComponent);
+  </script>
+</body>
+</html>
