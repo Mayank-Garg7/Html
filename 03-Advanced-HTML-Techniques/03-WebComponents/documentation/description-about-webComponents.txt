@@ -21,6 +21,3 @@ Web Components are a set of web platform APIs that allow developers to create cu
 
 ## Example
 In `example.html`, a custom component `<my-component>` is defined. It uses Shadow DOM to encapsulate its content, ensuring the style and structure are isolated from the rest of the page.
-
-## Further Reading
-- [MDN: Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)
