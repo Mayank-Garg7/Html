@@ -124,3 +124,8 @@ When this code runs, the browser registers and renders the custom element, which
 
 ### **Conclusion**
 Web Components are a game-changer in web development, enabling developers to build modular, maintainable, and framework-independent components. By leveraging features like Custom Elements, Shadow DOM, and HTML Templates, you can create powerful, reusable building blocks for your web applications.
+
+
+
+
+
