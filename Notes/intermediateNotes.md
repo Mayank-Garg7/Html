@@ -1,4 +1,4 @@
-# IntermediateNotes.md
+# Intermediate HTML
 
 This file provides a comprehensive guide to intermediate-level HTML concepts, aimed at enhancing your skills and enabling you to create more advanced web pages. Below is a detailed breakdown of the topics covered:
 
