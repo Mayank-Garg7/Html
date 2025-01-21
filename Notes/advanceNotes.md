@@ -1,4 +1,4 @@
-# AdvancedNotes.md
+# Advanced HTML
 
 This file delves into advanced HTML concepts, enabling you to create feature-rich and professional web applications. Here’s a detailed description of the topics covered:
 
