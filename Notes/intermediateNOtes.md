@@ -1,5 +1,3 @@
-# IntermediateNotes.md
-
 This file focuses on intermediate-level HTML concepts to enhance your understanding and build more advanced web pages. The notes cover the following topics:
 
 ## Topics Covered:
