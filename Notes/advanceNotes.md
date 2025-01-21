@@ -1,8 +1,4 @@
 
-# AdvancedNotes.md
-
-This file includes notes for:
-
 ## 1. Working with SVG and Canvas
 
 - **SVG (Scalable Vector Graphics)** is an XML-based format for vector graphics. It is used for creating scalable and interactive images.

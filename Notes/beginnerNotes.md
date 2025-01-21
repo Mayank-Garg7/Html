@@ -1,5 +1,3 @@
-# BeginnerNotes.md
-
 This file is dedicated to providing foundational knowledge of HTML for beginners. It includes structured notes on the following topics:
 
 ## Topics Covered:
