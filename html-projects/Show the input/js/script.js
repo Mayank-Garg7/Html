@@ -1,5 +1,5 @@
-function abc(){
+function abc() {
     var heading = document.getElementById('heading');
     var input = document.getElementById('input');
-    heading.innerHTML= input.value;
+    heading.innerHTML = input.value;
 }
