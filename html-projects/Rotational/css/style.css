@@ -1,63 +1,76 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background: #262626;
 }
-.container div{
+
+.container div {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
     border-top: 3px solid red;
-    animation:a 3s linear alternate infinite;
+    animation: a 3s linear alternate infinite;
 }
-innerDiv1{
+
+innerDiv1 {
     width: 100px;
     height: 100px;
 }
-innerDiv2{
+
+innerDiv2 {
     width: 90px;
     height: 90px;
 }
-innerDiv3{
+
+innerDiv3 {
     width: 80px;
     height: 80px;
 }
-innerDiv4{
+
+innerDiv4 {
     width: 70px;
     height: 70px;
 }
-innerDiv5{
+
+innerDiv5 {
     width: 60px;
     height: 60px;
 }
-innerDiv6{
+
+innerDiv6 {
     width: 50px;
     height: 50px;
 }
-innerDiv7{
+
+innerDiv7 {
     width: 40px;
     height: 40px;
 }
-innerDiv8{
+
+innerDiv8 {
     width: 30px;
     height: 30px;
 }
-innerDiv9{
+
+innerDiv9 {
     width: 20px;
     height: 20px;
 }
-innerDiv10{
+
+innerDiv10 {
     width: 10px;
     height: 10px;
 }
-@keyframes a{
-    0%{
+
+@keyframes a {
+    0% {
         transform: rotate(90deg);
     }
-    100%{
+
+    100% {
         transform: rotate(-90deg);
     }
 }
