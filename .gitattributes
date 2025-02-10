@@ -1,17 +1,20 @@
 # Include Markdown and text files in language stats
-*.md linguist-vendored=false
-*.txt linguist-vendored=false
+*.md linguist-documentation=false
+*.txt linguist-documentation=false
 
 # Include images in language stats
-*.jpg linguist-vendored=false
-*.jpeg linguist-vendored=false
-*.png linguist-vendored=false
-*.gif linguist-vendored=false
-*.svg linguist-vendored=false
-*.jfif linguist-vendored=false
+*.jpg linguist-documentation=false
+*.jpeg linguist-documentation=false
+*.png linguist-documentation=false
+*.gif linguist-documentation=false
+*.svg linguist-documentation=false
+*.jfif linguist-documentation=false
 
 # Include videos in language stats
-*.mp4 linguist-vendored=false
-*.mov linguist-vendored=false
-*.avi linguist-vendored=false
-*.mkv linguist-vendored=false
+*.mp4 linguist-documentation=false
+*.mov linguist-documentation=false
+*.avi linguist-documentation=false
+*.mkv linguist-documentation=false
+
+# Exclude specific files or directories from language stats (if needed)
+# path/to/excluded/file.js linguist-vendored=true
